@@ -1,0 +1,65 @@
+<!-- d:\hackthon\templates\index.html -->
+{% extends "base.html" %}
+{% block content %}
+<section class="hero mb-5 fade-in">
+  <div class="content">
+    <h1 class="display-5 fw-bold">{{ t('site.title', lang) }}</h1>
+    <p class="col-md-8 fs-4">{{ t('site.mission', lang) }}</p>
+    <a href="/farmer/dashboard" class="btn btn-light btn-lg fw-semibold hover-lift">{{ t('nav.farmer', lang) }}</a>
+  </div>
+</section>
+
+<section class="fade-in">
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card hover-lift h-100">
+        <img src="https://images.unsplash.com/photo-1529156069898-49907f3ffb9b?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Farmers">
+        <div class="card-body">
+          <h5 class="card-title">Farmers</h5>
+          <p class="card-text">Upload images for AI diagnostics, view crop-specific guidance and real-time market prices.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card hover-lift h-100">
+        <img src="https://images.unsplash.com/photo-1538370974036-4c6f2c162a30?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Researchers">
+        <div class="card-body">
+          <h5 class="card-title">Researchers</h5>
+          <p class="card-text">Answer farmer questions, publish articles and analyze outbreak reports.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card hover-lift h-100">
+        <img src="https://images.unsplash.com/photo-1529101091764-c3526daf38fe?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Students">
+        <div class="card-body">
+          <h5 class="card-title">Students</h5>
+          <p class="card-text">Explore a read-only knowledge base of crops, diseases and treatments.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mt-5">
+  <h2 class="mb-3">Articles</h2>
+  <div class="row g-4">
+    <div class="col-md-6">
+      <div class="card hover-lift">
+        <div class="card-body">
+          <h5 class="card-title">Sustainable Cardamom Cultivation</h5>
+          <p class="card-text">Best practices for shade management, irrigation and organic pest control.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card hover-lift">
+        <div class="card-body">
+          <h5 class="card-title">Early Blight Detection in Wheat</h5>
+          <p class="card-text">How AI-assisted scouting reduces losses and improves response time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

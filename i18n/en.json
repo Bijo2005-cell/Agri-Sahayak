@@ -1,0 +1,17 @@
+
+{
+  "site": {
+    "title": "Agri-sahayak",
+    "mission": "Connecting farmers, researchers, and students"
+  },
+  "nav": {
+    "home": "Home",
+    "farmer": "Farmer",
+    "researcher": "Researcher",
+    "student": "Knowledge Base",
+    "login": "Login"
+  },
+  "actions": {
+    "select_language": "Select Language"
+  }
+}

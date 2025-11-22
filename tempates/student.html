@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container py-4">
+  <div class="animate-fade-in">
+    <h1 class="display-5 fw-bold">{{ t('nav.student', lang) }} Portal</h1>
+    <p class="lead text-muted">Your agricultural knowledge base. Study, save, and test your skills.</p>
+  </div>
+
+  <hr class="my-4">
+
+  <h2 class="fw-bold mb-3 animate-fade-in" style="animation-delay: 0.1s;">Knowledge Base</h2>
+  <div class="row g-4">
+    <div class="col-md-4 animate-fade-in" style="animation-delay: 0.2s;">
+      <a href="#" class="card hover-lift h-100 text-decoration-none text-dark">
+        <img src="/static/images/student-crops.jpg" class="card-img-top" alt="Crops" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">
+            <i class="bi bi-tree-fill me-2 text-success"></i>Crops
+          </h5>
+          <p class="card-text">Cultivation practices, soil requirements and growth stages.</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 animate-fade-in" style="animation-delay: 0.3s;">
+      <a href="#" class="card hover-lift h-100 text-decoration-none text-dark">
+        <img src="/static/images/student-diseases.jpg" class="card-img-top" alt="Diseases" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">
+            <i class="bi bi-bug-fill me-2 text-danger"></i>Diseases
+          </h5>
+          <p class="card-text">Image-rich library of symptoms and management strategies.</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 animate-fade-in" style="animation-delay: 0.4s;">
+      <a href="#" class="card hover-lift h-100 text-decoration-none text-dark">
+        <img src="/static/images/student-treatments.jpg" class="card-img-top" alt="Treatments" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">
+            <i class="bi bi-prescription2 me-2 text-info"></i>Treatments
+          </h5>
+          <p class="card-text">Organic and chemical options, doses and safety guidance.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <h2 class="fw-bold mt-5 mb-3 animate-fade-in" style="animation-delay: 0.5s;">My Study Area</h2>
+  <div class="row g-4">
+    <div class="col-lg-6 animate-fade-in" style="animation-delay: 0.6s;">
+      <div class="card hover-lift h-100">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">
+            <i class="bi bi-bookmark-fill me-2 text-primary"></i>My Saved Articles
+          </h5>
+          <p class="card-text text-muted">Revisit your saved topics for easy review.</p>
+          <ul class="list-group list-group-flush mt-3">
+            <li class="list-group-item list-group-item-action">
+              <i class="bi bi-file-earmark-text me-2"></i>A Guide to Cardamom Harvesting
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <i class="bi bi-file-earmark-text me-2"></i>Managing Yellow Sigatoka in Bananas
+            </li>
+            <li class="list-group-item list-group-item-action">
+              <i class="bi bi-file-earmark-text me-2"></i>Understanding NPK Ratios
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 animate-fade-in" style="animation-delay: 0.7s;">
+      <div class="card hover-lift h-100">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">
+            <i class="bi bi-clipboard-check-fill me-2 text-warning"></i>Self-Assessments
+          </h5>
+          <p class="card-text text-muted">Test your knowledge on common crop diseases and regional pests.</p>
+          <a href="#" class="btn btn-warning mt-3">
+            <i class="bi bi-patch-check-fill me-2"></i>Take a Quick Quiz
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
