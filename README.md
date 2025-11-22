@@ -1,5 +1,4 @@
-# Agri-Sahayak
-Connecting Farmers ,Researchers ,Student and Markets with Generative AI
+
 
 # 🌿 Agri-Sahayak: The Farmer-to-Researcher Generative AI Loop
 
@@ -10,9 +9,9 @@ Connecting Farmers ,Researchers ,Student and Markets with Generative AI
 
 ## 🌟 Project Overview
 
-[cite_start]Agri-Sahayak is a unified, real-time platform designed to bridge the communication and data gap between **farmers**, **agricultural researchers**, and **students** in India[cite: 27]. [cite_start]Leveraging the Google **Gemini API**, the platform provides instant AI-powered crop disease diagnostics to farmers, while simultaneously feeding real-time, localized outbreak data to researchers for predictive modeling and targeted preventative action[cite: 36, 47, 54].
+Agri-Sahayak is a unified, real-time platform designed to bridge the communication and data gap between **farmers**, **agricultural researchers**, and **students** in India. Leveraging the Google **Gemini API**, the platform provides instant AI-powered crop disease diagnostics to farmers, while simultaneously feeding real-time, localized outbreak data to researchers for predictive modeling and targeted preventative action.
 
-[cite_start]The project aims to combat significant crop loss (20-40%) due to misidentified diseases, counter the critical language barrier, and replace outdated educational materials with live, real-world field data[cite: 10, 12, 17, 19].
+The project aims to combat significant crop loss (20-40%) due to misidentified diseases, counter the critical language barrier, and replace outdated educational materials with live, real-world field data.
 
 ## ✨ Core Features
 
